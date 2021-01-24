@@ -38,7 +38,7 @@ namespace TaxService.Services
 
             var taxJarTaxRateRequestDto = _mapper.Map<TaxJarTaxRateRequestDto>(location);
             var queryString = ObjectToQueryStringConverter.Convert(taxJarTaxRateRequestDto, new string[] { "Zip" });
-            var requestUri = BuildUriForApiCall("https://api.taxjar.com/v2", "rates /" + taxJarTaxRateRequestDto.Zip, queryString);   
+            var requestUri = BuildUriForApiCall("https://api.taxjar.com/v2", "rates/" + taxJarTaxRateRequestDto.Zip, queryString);   
             var response = await _httpClient.GetAsync(requestUri);
             if (response.IsSuccessStatusCode)
             {
