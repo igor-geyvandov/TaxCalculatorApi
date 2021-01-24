@@ -5,29 +5,28 @@ TaxService is web API built with a .Net Core. It offers a common RESTful interfa
 **TaxService leverages the following software design patterns and best practices:**
 
  - Single-responsibility principle
- - dependency injection for achieving Inversion of Control between classes and their dependencies
- - global error/exception handling with custom middlewares
- - global model validation with custom ActionFilters
- - use of DTOs to return results and accept inputs
- - appropriately scoped DI services lifetimes
- - environment variables and use of Options pattern for AppSettings access
- - use of asynchronous code 
- - logging
- - clean controllers and action methods
- - use of AutoMapper for object mapping 
- - unit tests for TaxService interface endpoints
- - health check monitoring endpoint with custom middleware (/health)
+ - Dependency Injection for achieving Inversion of Control between classes and their dependencies
+ - Global error/exception handling with custom middlewares
+ - Global model validation with custom ActionFilters
+ - Use of DTOs to return results and accept inputs
+ - Appropriately scoped DI services lifetimes
+ - Environment variables and use of Options pattern for AppSettings access
+ - Use of asynchronous code for optimized data access and I/O
+ - Logging
+ - Light controllers and action methods
+ - Use of AutoMapper for object mapping 
+ - Unit tests for TaxService interface endpoints
+ - Health check monitoring endpoint with custom middleware (/health)
  - Swagger specification for describing TaxService REST APIs (/swagger)
- - CORS support
- - optimized data access and I/O
- - clean and well-documented code
+ - CORS support enabled
+ - Clean and well-documented code
 
 **TaxService can also be improved in the following ways:**
 
- - move sensitive API keys from source code into Azure Key Vault
- - abstract HttpClient functionality from implementations of ITaxCalculatorService interface
- - move service interfaces and implementation into a separate project within the solution
- - add endpoint data output caching with Azure Cache for Redis
+ - Move sensitive API keys from source code into Azure Key Vault
+ - Abstract HttpClient functionality from implementations of ITaxCalculatorService interface
+ - Move service interfaces and implementation into a separate project within the solution
+ - Add endpoint data output caching with Azure Cache for Redis
 
 **Class diagram of entities used for GetTaxRateForLocation:**
 
