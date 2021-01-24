@@ -20,6 +20,7 @@ TaxService is web API built with a .Net Core. It offers a common RESTful interfa
  - Swagger specification for describing TaxService REST APIs (/swagger)
  - CORS support enabled
  - Clean and well-documented code
+ 
 
 **TaxService can also be improved in the following ways:**
 
@@ -27,13 +28,14 @@ TaxService is web API built with a .Net Core. It offers a common RESTful interfa
  - Abstract HttpClient functionality from implementations of ITaxCalculatorService interface
  - Move service interfaces and implementation into a separate project within the solution
  - Add endpoint data output caching with Azure Cache for Redis
+ 
 
-**Class diagram of entities used for GetTaxRateForLocation:**
+**Class diagram of entities used by ITaxCalculatorService.GetTaxRateForLocation():**
 
 ![alt text](https://github.com/igor-geyvandov/TaxCalculatorApi/blob/master/Images/ClassDiagram-TaxRateEntities.jpg?raw=true)
 
 
-**Class diagram of entities used for GetSalesTaxForOrder:**
+**Class diagram of entities used for ITaxCalculatorService.GetSalesTaxForOrder():**
 
 ![alt text](https://github.com/igor-geyvandov/TaxCalculatorApi/blob/master/Images/ClassDiagram-OrderTaxEntities.jpg?raw=true)
 
@@ -41,6 +43,7 @@ TaxService is web API built with a .Net Core. It offers a common RESTful interfa
 **TaxService API Swagger specification (/swagger):**
 
 ![alt text](https://github.com/igor-geyvandov/TaxCalculatorApi/blob/master/Images/SwaggerSpec.jpg?raw=true)
+
 
 **TaxService API sequence diagrams:**
 
