@@ -29,3 +29,13 @@ TaxService is web API built with a .Net Core. It offers a common RESTful interfa
  - move service interfaces and implementation into a separate project within the solution
  - add endpoint data output caching with Azure Cache for Redis
 
+**Class diagram of entities used for GetTaxRateForLocation:**
+
+![alt text](https://github.com/igor-geyvandov/TaxCalculatorApi/blob/master/Images/ClassDiagram-TaxRateEntities.jpg?raw=true)
+
+
+**Class diagram of entities used for GetSalesTaxForOrder:**
+
+![alt text](https://github.com/igor-geyvandov/TaxCalculatorApi/blob/master/Images/ClassDiagram-OrderTaxEntities.jpg?raw=true)
+
+
