@@ -40,7 +40,7 @@ TaxService is web API built with a .Net Core. It offers a common RESTful interfa
 
 
 
-**Swagger API specification (/swagger):**
+**TaxService API Swagger specification (/swagger):**
 
 ![alt text](https://github.com/igor-geyvandov/TaxCalculatorApi/blob/master/Images/SwaggerSpec.jpg?raw=true)
 
