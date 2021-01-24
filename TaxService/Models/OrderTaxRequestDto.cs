@@ -6,7 +6,7 @@ namespace TaxService.Models
     /// <summary>
     /// DTO models for Web API request params and response data.
     /// </summary>
-    public class OrderTaxRequestDto
+    public class OrderTaxRequestDto 
     {  
         public string FromCountry { get; set; }
         public string FromZip { get; set; }
