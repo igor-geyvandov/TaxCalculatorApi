@@ -1,6 +1,6 @@
 # TaxServices
 
-TaxService is web API built with a .Net Core. It offers a common RESTful interface to customers that need to perform tax calculations. 
+TaxService is web API built with ASP.NET Core framework. It offers a common RESTful interface to customers that need to perform tax calculations. 
 
 **TaxService leverages the following software design patterns and best practices:**
 
